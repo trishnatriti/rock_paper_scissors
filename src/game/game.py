@@ -39,7 +39,6 @@ class Game:
                 
         game_df = {1:"Rock", 2:"Paper", 3:"Scissor"}
             
-        print(f"{result}\n{self.name} selected {(game_df[user])}\nsystem selected {(game_df[sys])}")
+        return(f"{result}\n{self.name} selected {(game_df[user])}\nsystem selected {(game_df[sys])}")
                   
-player = Game("Trishna")
-player.game_rps(1)
+
